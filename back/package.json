@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "vue-cal": "^4.10.2"
+  }
+}
