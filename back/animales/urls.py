@@ -4,8 +4,8 @@ from .views import AnimalViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'animales', AnimalViewSet) 
+router.register(r'', AnimalViewSet) 
 
 urlpatterns = [
-    path('animales/', include(router.urls)),
+    path('', include(router.urls)),
 ]

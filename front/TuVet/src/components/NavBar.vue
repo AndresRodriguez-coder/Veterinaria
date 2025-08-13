@@ -53,13 +53,11 @@
               Módulos
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <li><router-link class="dropdown-item" to="/inventario">Inventario</router-link></li>
-              <li><router-link class="dropdown-item" to="/estadisticas">Estadísticas</router-link></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><router-link class="dropdown-item" to="/configuracion">Configuración</router-link></li>
+              <li><router-link class="dropdown-item" to="/animales">Animales</router-link></li>
+              <li><router-link class="dropdown-item" to="/citas">Citas</router-link></li>
             </ul>
           </li>
-          
+
           <!-- Botón Login/Perfil -->
           <li class="nav-item ms-lg-3">
             <router-link to="/login" class="btn btn-outline-light px-3">
